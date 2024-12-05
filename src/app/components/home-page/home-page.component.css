@@ -1,0 +1,208 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+     width: 100%;
+    gap: 60px;
+}
+
+.text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.content-text p, .content-text h2{
+    font-size: 20px;
+    width: 430px;
+}
+
+ .content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+ .text-div  button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.content2{
+    /* background-color: rgb(217, 212, 212); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nadojnst{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+}
+
+.nadojnst p {
+    font-size: 20px;
+    
+}
+
+
+.nadojnst span{
+    font-size: 30px;
+}
+
+.content-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.content-informacion h2 {
+    font-size: 50px ;
+}
+
+.content2{
+    
+    height: 100%;
+}
+
+.content-informacion button{
+    width: 400px;
+    height: 70px;
+    font-size: 40px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.pervalinia{
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-around;
+     width: 100%;
+
+}
+
+
+.vatarachast{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+
+
+
+.nadojnst div{
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .img-div .youtube-img {
+        margin-top: 60px;
+      width: 300px;
+      height: auto;
+    }
+
+    
+
+    .img-div {
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    } 
+
+    .pervalinia, .vatarachast{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     
+    .nadojnst img {
+        width: 50px;
+        height: auto;
+    }
+
+    .pervalinia{
+        padding-right: 0px;
+    }
+
+    .nadojnst p {
+            font-size: 15px;
+        
+    }
+     
+    .content-informacion button {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .content-informacion h2 {
+        margin-top: 40px;
+        font-size: 30px;
+        width: 100%;
+        
+    }
+
+    .content-text{
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-div{
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    .content-text h1 {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+    }
+
+  .content-text h2{
+    font-size: 15px;
+    width: 90%;
+    text-align: center;
+  }
+    
+
+    .content-text p {
+        margin-bottom: 30px;
+        font-size: 14px;
+      text-align: center;
+      width: 80%;
+    }
+}
